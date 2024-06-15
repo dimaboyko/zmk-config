@@ -28,8 +28,6 @@
 &kp LSHFT  &kp Z   &kp X   &kp C   &kp V         &kp B             &kp LBKT       &kp RBKT     &kp N   &kp M          &kp COMMA      &kp DOT  &kp FSLH  &kp ENTER
                            &none   &kp LEFT_ALT  &kp LEFT_COMMAND  &lt 1 SPACE    &lt 1 SPACE  &none   &kp RIGHT_ALT  &kp BACKSPACE
             >;
-
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
 
         controls {
@@ -66,8 +64,6 @@
 &trans      &ext_power EP_ON  &ext_power EP_OFF  &ext_power EP_TOG  &trans        &trans        &trans    &trans  &trans     &kp MINUS  &kp PLUS  &kp LBRC  &kp RBRC  &kp PIPE
                                                  &trans             &trans        &trans        &trans    &trans  &trans     &trans     &trans
             >;
-
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
     };
 };
